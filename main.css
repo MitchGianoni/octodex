@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+.octodex {
+	font: 16px helvetica,arial,freesans,clean,sans-serif;
+	font-weight: bold;
+}
+
+.octocat img {
+	display: inline-block;
+	width: 350px;
+	margin-top: 6px;
+	margin-left: 6px;
+	margin-right: 6px;
+	margin-bottom: 6px;
+
+	border-style: solid;
+	border-radius: 2px;
+	border-width: 1px;
+	border-color: #D3D3D3;
+}
+
+.octocat {
+	display: inline-block;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #D3D3D3;
+	margin-right: 6px;
+	margin-left: 6px;
+}
+
+.authors li {
+  list-style-type: none;
+}
+
+.image-number {
+	display: inline-block;
+	float: left;
+	color: #cacaca;
+
+}
+
+.authors {
+ float: right;
+ padding-left: 5px;
+}
+
+.authors img {
+	width: 28px;
+	border-style: none;
+	margin-top: 1px;
+	margin-left: 1px;
+	margin-right: 1px;
+	margin-bottom: 1px;
+}
+
+.image-caption span {
+	color: #777;
+}
+
+.image-caption {
+	float: right;
+	color: #777
+}
+
+.image-caption a {
+	color: #333;
+}
